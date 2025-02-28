@@ -29,6 +29,7 @@ public class C03_ResponseDegerleriniOtomasyonIleTestEtme {
 
         // 4- Assertion
 
+
         response.then().assertThat().statusCode(200).contentType("application/json; charset=utf-8")
                 .header("Server","Cowboy").statusLine("HTTP/1.1 200 OK");
 
