@@ -14,6 +14,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
     @Test
     public void test(){
 
+
         /*
 
                  https://restful-booker.herokuapp.com/booking url’ine asagidaki body'ye sahip bir POST request
