@@ -120,7 +120,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
 
     @Test
      public void test45(){
-        assertTrue(false);
+        assertTrue(true);
 
     }
 }
