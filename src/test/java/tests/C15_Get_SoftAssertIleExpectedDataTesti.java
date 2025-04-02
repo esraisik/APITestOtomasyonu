@@ -79,7 +79,7 @@ public class C15_Get_SoftAssertIleExpectedDataTesti {
         softAssert.assertEquals(responseJsonPath.get("data.employee_salary"),
                                 expectedData.getJSONObject("data").get("employee_salary"));
         softAssert.assertEquals(responseJsonPath.get("data.employee_age"),
-                                expectedData.getJSONObject("data").get("employeeage"));
+                                expectedData.getJSONObject("data").get("employee_age"));
         softAssert.assertEquals(responseJsonPath.get("data.profile_img"),
                                 expectedData.getJSONObject("data").get("profile_img"));
 
