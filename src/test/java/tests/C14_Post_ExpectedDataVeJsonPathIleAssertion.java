@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
 
@@ -113,6 +114,13 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
 
 
 
+
+
+    }
+
+    @Test
+     public void test45(){
+        assertTrue(false);
 
     }
 }
