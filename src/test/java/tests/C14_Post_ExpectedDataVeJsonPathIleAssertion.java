@@ -66,7 +66,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
         reqBody.put( "firstname","Ahmet");
         reqBody.put( "lastname", "Bulut");
         reqBody.put( "totalprice",500);
-        reqBody.put( "depositpaid",false);
+        reqBody.put( "depositpaid",true);
         reqBody.put( "bookingdates",rezervasyonTarih);
         reqBody.put( "additionalneeds","wi-fi");
 
@@ -77,7 +77,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
         JSONObject expectedData = new JSONObject();
 
         expectedData.put("bookingid",3959);
-        //expectedData.put("booking",reqBody);
+        expectedData.put("booking",reqBody);
 
         // 3- request gonder ve donen respons2ı kaydet
 
