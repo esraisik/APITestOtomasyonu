@@ -77,7 +77,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
         JSONObject expectedData = new JSONObject();
 
         expectedData.put("bookingid",3959);
-        expectedData.put("booking",reqBody);
+        //expectedData.put("booking",reqBody);
 
         // 3- request gonder ve donen respons2ı kaydet
 
@@ -104,7 +104,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
         assertEquals(expectedData.getJSONObject("booking").getJSONObject("bookingdates").get("checkin"),
                 responseJsonPath.get("booking.bookingdates.checkin"));
         assertEquals(expectedData.getJSONObject("booking").getJSONObject("bookingdates").get("checkout"),
-                responseJsonPath.get("lkgflkjglkrejga"));
+                responseJsonPath.get("booking.bookingdates.checkout"));
 
 
 
