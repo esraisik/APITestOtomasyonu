@@ -66,7 +66,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
         reqBody.put( "firstname","Ahmet");
         reqBody.put( "lastname", "Bulut");
         reqBody.put( "totalprice",500);
-        reqBody.put( "depositpaid",true);
+        reqBody.put( "depositpaid",false);
         reqBody.put( "bookingdates",rezervasyonTarih);
         reqBody.put( "additionalneeds","wi-fi");
 
