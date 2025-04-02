@@ -104,7 +104,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
         assertEquals(expectedData.getJSONObject("booking").getJSONObject("bookingdates").get("checkin"),
                 responseJsonPath.get("booking.bookingdates.checkin"));
         assertEquals(expectedData.getJSONObject("booking").getJSONObject("bookingdates").get("checkout"),
-                responseJsonPath.get("booking.bookingdates.checkout"));
+                responseJsonPath.get("booking.bookingdates."));
 
 
 
@@ -118,9 +118,5 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
 
     }
 
-    @Test
-     public void test45(){
-        assertTrue(true);
 
-    }
 }
